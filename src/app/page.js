@@ -11,17 +11,6 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
-      <div className="absolute  right-10 bottom-[-240%]">
-        <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
-          <div className="w-10 h-19 bg-teal-600 leading-9 px-1 py-2  rounded-sm  cursor-pointer">
-            <HiArrowUp
-              size={30}
-              color="white"
-              className="hover:animate-bounce"
-            />
-          </div>
-        </Link>
-      </div>
     </main>
   );
 }
