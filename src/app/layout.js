@@ -8,10 +8,10 @@ import Head from "./Head";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Belal Bahaa",
-  description: "Belal Bahaa portfolio",
-};
+// export const metadata = {
+//   title: "Belal Bahaa",
+//   description: "Belal Bahaa portfolio",
+// };
 
 export default function RootLayout({ children }) {
   return (
